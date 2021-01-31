@@ -14,6 +14,8 @@ public class Configuracion {
     public static String BLOG_URL = IP+"/wordpress";
     public static String DRIVER_DIR = System.getProperty("user.dir")+ File.separator+"drivers"+File.separator;
 
+    public static String SCREENSHOT_DIR = System.getProperty("user.dir")+File.separator+"screenshots"+File.separator;
+
     public static String CHROME_DRIVER_PATH = DRIVER_DIR + "chromedriver";
     public static String GECKO_DRIVER_PATH = DRIVER_DIR+"geckodriver";
 /*
